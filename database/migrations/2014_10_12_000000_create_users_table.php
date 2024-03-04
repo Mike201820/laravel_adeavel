@@ -12,6 +12,9 @@ return new class extends Migration
     /**
      * migraciones aprendiendo.
      */
+    /**
+     * es un comentario nuevo, es el segundo.
+     */
     public function up(): void
     {
         Schema::create('users', function (Blueprint $table) {
